@@ -6,6 +6,7 @@ namespace Labb3_Polymorphism
 {
     public class Teckning  //Parent class
     {
+        
         public virtual double Area()
         {
             return 0;

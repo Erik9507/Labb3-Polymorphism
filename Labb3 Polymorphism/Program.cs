@@ -8,13 +8,16 @@ namespace Labb3_Polymorphism
     {
         static void Main(string[] args)
         {
-            Cirkel cirkel = new Cirkel();
-            Rektangel rektangel = new Rektangel();
-            Fyrkant fyrkant = new Fyrkant();
+            Teckning cirkel = new Cirkel();
+            Teckning rektangel = new Rektangel();
+            Teckning fyrkant = new Fyrkant();
 
-            Console.WriteLine("Cirkel med en radie på "+ cirkel.Radie + " har en area som är " + cirkel.Area());
-            Console.WriteLine("Rektangel med en bas som är " + rektangel.Bas + " och en höjd som är " + rektangel.Höjd + " har en area som är " + rektangel.Area());
-            Console.WriteLine("Fyrkant med en sida som är " + fyrkant.Sida + " har en area som är " + fyrkant.Area());
+            Console.WriteLine("Area cirkel = " + cirkel.Area());
+            Console.WriteLine("Area rektangel = " + rektangel.Area());
+            Console.WriteLine("Area fyrkant = " + fyrkant.Area());
+
+            
+
         }
     }
 }
